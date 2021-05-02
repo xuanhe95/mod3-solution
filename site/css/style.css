@@ -1,0 +1,87 @@
+*{
+	box-sizing: border-box;
+
+}
+
+h1{
+	font-size:3em;
+	color:white;
+	text-align:left;
+	text-shadow: 1px 1px 1px #222;
+	font-family: 'Girassol', cursive;
+	overflow:hidden;
+	line-height:1.2;
+	margin-left: 15px;
+}
+
+h2{
+	font-size:2em;
+	text-align:center;
+	font-family:"Roboto";
+	font-weight:bold;
+	font-style:italic;
+	color:#00576F;
+	margin-bottom:40px;
+}
+
+
+
+
+
+body{background-color:white;}
+
+button{color:white;}
+
+/** HEADER **/
+#box{
+	padding:30px;
+	margin:auto;
+	background:#B6CAD1;
+	color:black;
+}
+
+
+#header-nav {
+  background-color: #00576F;
+  border-radius: 0;
+  border: 0;
+}
+
+
+.navbar-brand {
+  padding-top: 0px;
+  overflow:hidden;
+  height:auto;
+}
+
+#collapsable-nav ul{
+	font-size:1.5em;
+	font-family: 'Roboto', sans-serif;
+	background-color:#B6CAD1; 
+	text-align:center;
+	line-height:50px;
+	color:#00576F;
+
+}
+
+.nav li:hover{
+	font-family: 'Roboto', sans-serif;
+	background-color:white; 
+	text-align:center;
+	line-height:50px;
+	color:#00576F;
+
+}
+
+
+
+
+
+.navbar-default .navbar-nav > li > a {
+    color: #00576F;
+}
+
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: white;
+}
